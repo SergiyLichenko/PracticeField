@@ -1,4 +1,4 @@
-Find all simple cycles in directed graph using Johnson's and Kosaraju's algorithms
+Find all simple cycles in directed graph using **Johnson's** and **Kosaraju's** algorithms
 
 
 ![img_0202](https://cloud.githubusercontent.com/assets/19876131/22568237/a525f73e-e99b-11e6-90fa-7353752e284b.JPG)
