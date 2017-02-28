@@ -2,6 +2,10 @@ My implementation of finding all simple cycles in directed graph using **Johnson
 
 ## Table of Contents
 
+  1. [Number](#numbers)
+  2. [Array](#array)
+  3. [Binary Search Tree](#array)
+  4. [
   1. [Dynamic Programming](#dynamic-programming)   
   1. [Graph Algorithms](#graph-algorithms)
  
