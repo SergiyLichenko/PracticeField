@@ -2,8 +2,8 @@ My implementation of finding all simple cycles in directed graph using **Johnson
 
 ## Table of Contents
 
-  1. [Dynamic Programming](#dynamic_programming)
-  2. [Graph Algorithms](#graph_algorithms)
+  1. [Dynamic Programming](#dynamic-programming)
+  2. [Graph Algorithms](#graph-algorithms)
  
 ![img_0202](https://cloud.githubusercontent.com/assets/19876131/22568237/a525f73e-e99b-11e6-90fa-7353752e284b.JPG)
 
