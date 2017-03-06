@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/ */
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
