@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+https://leetcode.com/problems/jump-game/?tab=Description */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +24,7 @@ namespace GitHub
             Console.ReadLine();
         }
 
-        #region Minimum number of jumps
+        #region Minimum Number of Jumps
 
         private static int MinimumNumberOfJumps(int[] input)
         {
