@@ -1,4 +1,6 @@
-﻿using System;
+/* http://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
