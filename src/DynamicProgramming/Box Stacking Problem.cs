@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/dynamic-programming-set-21-box-stacking-problem/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
