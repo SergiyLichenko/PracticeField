@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-k-times/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
