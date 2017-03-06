@@ -1,24 +1,11 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/dynamic-programming-set-24-optimal-binary-search-tree/ */
+
+using System;
 using System.Linq;
 
 namespace GitHub
 {
-    public class BinaryTreeNode<T>
-    {
-        public T Data { get;  set; }
-        public BinaryTreeNode<T> Left { get; set; }
-        public BinaryTreeNode<T> Right { get; set; }
-
-        public BinaryTreeNode(T data)
-        {
-            Data = data;
-        }
-        public BinaryTreeNode()
-        {
-            
-        }
-    }
-
     class Program
     {
         static void Main(String[] args)
@@ -98,10 +85,23 @@ namespace GitHub
                 CreateTree(parents, nodes.Skip(indexParent + 1).ToArray(), values.Skip(indexParent + 1).ToArray(),
                     indeces.Skip(indexParent + 1).ToArray(), root.Right);
             }
-
         }
-
         #endregion
     }
+    
+    public class BinaryTreeNode<T>
+    {
+        public T Data { get;  set; }
+        public BinaryTreeNode<T> Left { get; set; }
+        public BinaryTreeNode<T> Right { get; set; }
 
+        public BinaryTreeNode(T data)
+        {
+            Data = data;
+        }
+        public BinaryTreeNode()
+        {
+            
+        }
+    }
 }
