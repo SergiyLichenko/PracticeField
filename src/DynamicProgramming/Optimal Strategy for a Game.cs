@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/ */
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
