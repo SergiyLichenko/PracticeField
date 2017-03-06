@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/wildcard-pattern-matching/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +22,7 @@ namespace GitHub
             Console.ReadLine();
         }
 
-        #region
+        #region Wild Card Pattern Matching
 
         private static bool WildCardMatching(string str, string pattern)
         {
