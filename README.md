@@ -7,7 +7,7 @@ My implementation of finding all simple cycles in directed graph using **Johnson
   3. [Binary Search Tree](#array)
   4. [Tree](#tree)
   5. [Recursion](#recursion)
-  6. [Dynamic Programming](#dynamic-programming)
+  6. [Dynamic Programming](../dynamic-programming)
  
 ![img_0202](https://cloud.githubusercontent.com/assets/19876131/22568237/a525f73e-e99b-11e6-90fa-7353752e284b.JPG)
 
