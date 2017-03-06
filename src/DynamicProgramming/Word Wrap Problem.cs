@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement 
+http://www.geeksforgeeks.org/dynamic-programming-set-18-word-wrap/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,7 +28,7 @@ namespace GitHub
             Console.ReadLine();
         }
 
-        #region Text justification
+        #region Word Wrap Problem
 
         private static List<string> TextJustification(string[] words, int width)
         {
