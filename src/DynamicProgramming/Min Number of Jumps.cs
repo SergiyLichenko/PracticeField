@@ -1,5 +1,5 @@
 /* Problem Statement
-https://leetcode.com/problems/jump-game/?tab=Description */
+https://leetcode.com/problems/jump-game-ii/?tab=Description */
 
 using System;
 using System.Collections.Generic;
