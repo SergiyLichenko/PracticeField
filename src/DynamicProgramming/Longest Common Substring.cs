@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/longest-common-substring/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
