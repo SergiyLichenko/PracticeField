@@ -1,4 +1,7 @@
-﻿using System;
+
+/*http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/*/
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
