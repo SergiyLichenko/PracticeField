@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* Problem Statement
+http://www.geeksforgeeks.org/check-whether-a-given-string-is-an-interleaving-of-two-other-given-strings-set-2/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,8 +21,6 @@ namespace GitHub
             Console.WriteLine($"Is '{str3}' interleaved" +
                               $" of '{str1}' and '{str2}'?");
             Console.WriteLine(result);
-
-
             Console.ReadLine();
         }
 
