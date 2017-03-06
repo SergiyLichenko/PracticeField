@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,7 +32,7 @@ namespace GitHub
             Console.ReadLine();
         }
 
-        #region Word Split Problem
+        #region Word Break Problem
 
         private static List<string> WordSplit(HashSet<string> dictionary, string str)
         {
