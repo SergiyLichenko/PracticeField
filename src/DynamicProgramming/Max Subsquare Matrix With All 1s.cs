@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,7 +28,7 @@ namespace GitHub
             Console.ReadLine();
         }
 
-        #region Maximum Sub Square Matrix of all 1's
+        #region Maximum Subsquare Matrix With All 1's
 
         private static int MaxSubSquareMatrix(int[,] input)
         {
@@ -46,5 +49,4 @@ namespace GitHub
 
         #endregion
     }
-
 }
