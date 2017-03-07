@@ -1,4 +1,6 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/ */
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -20,7 +22,7 @@ namespace GitHub
             Console.ReadLine();
         }
 
-        #region Longest common subsequence
+        #region Longest Common Subsequence
 
         private static string LongestCommonSubsequence(string s1, string s2)
         {
@@ -66,5 +68,4 @@ namespace GitHub
 
         #endregion
     }
-
 }
