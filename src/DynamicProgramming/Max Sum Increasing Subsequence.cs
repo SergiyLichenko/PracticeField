@@ -40,8 +40,7 @@ namespace GitHub
 
             return data.Max();
         }
-
+        
         #endregion
     }
-
 }
