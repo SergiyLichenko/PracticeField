@@ -1,5 +1,5 @@
 /* Problem Statement
-http://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/ */
+http://www.geeksforgeeks.org/maximum-size-rectangle-binary-sub-matrix-1s/ */
 
 using System;
 using System.Collections.Generic;
@@ -14,12 +14,10 @@ namespace GitHub
         {
             var matrix = new int[,]
             {
-                {0,1,1,0,1},
-                {1,1,0,1,0},
-                {0,1,1,1,0},
-                {1,1,1,1,0},
-                {1,1,1,1,1},
-                {0,0,0,0,0}
+                {0, 1, 1, 0},
+                {1, 1, 1, 1},
+                {1, 1, 1, 1},
+                {1, 1, 0, 0}
             };
 
             int maxArea = MaxSizeRectanbleOfOnes(matrix);
@@ -29,7 +27,7 @@ namespace GitHub
             Console.ReadLine();
         }
 
-        #region Max size rectangle of all 1's
+        #region Max Size Rectangle With All 1's
 
         private static int MaxSizeRectanbleOfOnes(int[,] input)
         {
@@ -87,5 +85,4 @@ namespace GitHub
 
         #endregion
     }
-
 }
