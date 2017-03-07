@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+https://leetcode.com/problems/regular-expression-matching/?tab=Description */
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -19,7 +22,7 @@ namespace GitHub
             Console.ReadLine();
         }
 
-        #region Regular expression matching
+        #region Regular Expression Matching
 
         private static bool IsMatch(string str, string pattern)
         {
@@ -70,5 +73,4 @@ namespace GitHub
 
         #endregion
     }
-
 }
