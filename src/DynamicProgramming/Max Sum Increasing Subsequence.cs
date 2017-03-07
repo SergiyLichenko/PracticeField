@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +21,7 @@ namespace GitHub
             Console.ReadLine();
         }
 
-        #region Maximum Sub Increasing Subsequence
+        #region Max Sum Increasing Subsequence
 
         private static int MaxSumIncreasingSubsequence(int[] numbers)
         {
