@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+http://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -107,7 +110,7 @@ namespace GitHub
         }
 
 
-        #region Floyd-Warshall All Pair Shortest Path
+        #region Floyd-Warshall All Pairs Shortest Path
 
         public void GetAllShortestPaths(List<List<int>> distance, List<List<int>> path)
         {
