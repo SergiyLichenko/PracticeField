@@ -74,7 +74,7 @@ namespace GitHub
         }
 
 
-        #region Bellman-Ford Algorithm - Single Source Shortest Sath
+        #region Bellman-Ford Algorithm - Single Source Shortest Path
 
         public bool GetShortestPaths(int from, int to, ref int distance, ref string path)
         {
