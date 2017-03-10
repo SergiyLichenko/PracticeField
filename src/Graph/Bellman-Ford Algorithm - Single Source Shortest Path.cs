@@ -13,7 +13,26 @@ namespace GitHub
     {
         public static void Main()
         {
-            var graph = new GraphAdj<int>(5, true);
+            int n = 5;
+            var graph = CreateGraph(n);
+
+            int from = 0; int to = 4;
+            int distance = 0;
+            string path = String.Empty;
+
+            bool containsNegativeCycle = graph.GetShortestPaths(
+                from, to, ref distance, ref path);
+
+            Console.WriteLine("Shortest path from {0} to {1} is\n\n" +
+                              "{2}\nwith total cost {3}", from, to, path, distance);
+            Console.WriteLine("\nGraph contains negative " +
+                              "cycle? - " + containsNegativeCycle);
+            Console.ReadLine();
+        }
+
+        private static GraphAdj<int> CreateGraph(int n)
+        {
+            var graph = new GraphAdj<int>(n, true);
 
             graph.AddEdge(0, 1, 6);
             graph.AddEdge(0, 3, 7);
@@ -26,18 +45,7 @@ namespace GitHub
             graph.AddEdge(4, 2, 7);
             graph.AddEdge(4, 0, 2);
 
-            int from = 0;
-            int to = 4;
-            int distance = 0;
-            string path = String.Empty;
-
-            bool containsNegativeCycle = graph.GetShortestPaths(from, to, ref distance, ref path);
-
-            Console.WriteLine("Shortest path from {0} to {1} is" +
-                              " {2} with total cost {3}", from, to, path, distance);
-            Console.WriteLine("Graph contains negative " +
-                              "cycle? - " + containsNegativeCycle);
-            Console.ReadLine();
+            return graph;
         }
     }
 
@@ -119,6 +127,7 @@ namespace GitHub
             {
 
                 distance = distanceMap[to];
+
                 //building shortest path
                 var pathNodes = new List<int>();
                 var currentNode = parentMap[to];
