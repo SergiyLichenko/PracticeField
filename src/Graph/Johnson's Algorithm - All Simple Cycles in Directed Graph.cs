@@ -1,4 +1,7 @@
-﻿using System;
+/* Problem Statement
+https://networkx.github.io/documentation/networkx-1.9/reference/generated/networkx.algorithms.cycles.simple_cycles.html */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
