@@ -8,8 +8,8 @@ namespace GitHub
     {
         static void Main()
         {
-            string text = "xabcabzabc";
-            string pattern = "abc";
+            string text = "babasbbaxcxbs";
+            string pattern = "bbaxcx";
 
             var result = ZAlgorithm.Compute(text, pattern);
             Console.WriteLine($"Text '{text}' match " +
